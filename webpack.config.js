@@ -1,4 +1,5 @@
 const path = require('path');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
   mode: 'none',
@@ -6,6 +7,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 8000 
   },
   module: {
     rules: [
@@ -15,5 +21,8 @@ module.exports = {
         use: 'babel-loader' 
       }
     ]
-  }
+  },
+  plugins: [
+    new OpenBrowserPlugin({ url: 'http://localhost:8000' })
+  ]
 };

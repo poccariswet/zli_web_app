@@ -5,7 +5,10 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 const App = () => (
   <MuiThemeProvider>
+    <div>
+    <h1>test</h1>
     <RaisedButton label="Default" />
+    </div>
   </MuiThemeProvider>
 );
 
