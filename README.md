@@ -31,9 +31,26 @@ Set this command to default setting.
 nvm use default 6.14.1
 ```
 
-Thanks
+## Start
+#### install
 
+```
+yarn instal
+```
+or
+```
+npm install
+```  
+
+#### run
+```
+yarn run dev
+```
+or
+```
+npm run dev
+```
 ## Thanks
-React: [React](https://reactjs.org "React")  
-Babel: [Babel](https://babeljs.io "Babel")  
-Material-UI: [Material-UI](http://www.material-ui.com/#/ "Material")
+###### React: [React](https://reactjs.org "React")  
+###### Babel: [Babel](https://babeljs.io "Babel")  
+###### Material-UI: [Material-UI](http://www.material-ui.com/#/ "Material")
