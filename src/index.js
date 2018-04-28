@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import RaisedButton from 'material-ui/RaisedButton';
 
-class HelloMessage extends React.Component {
-    render() {
-          return (
-                  <div>
-                            Hello
-                                  </div>
-                );
-        }
-}
+const App = () => (
+  <MuiThemeProvider>
+    <RaisedButton label="Default" />
+  </MuiThemeProvider>
+);
 
 
-ReactDOM.render(<HelloMessage />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))

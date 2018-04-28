@@ -32,3 +32,8 @@ nvm use default 6.14.1
 ```
 
 Thanks
+
+## Thanks
+React: [React](https://reactjs.org "React")  
+Babel: [Babel](https://babeljs.io "Babel")  
+Material-UI: [Material-UI](http://www.material-ui.com/#/ "Material")
